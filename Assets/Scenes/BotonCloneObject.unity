@@ -456,7 +456,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Escribir en consola
+  m_Text: 'Clonar
+
+'
 --- !u!222 &550209586
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -659,6 +661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 596f6fec2d5431f45bf39f082b39018d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clonar: 5
   objectToClone: {fileID: 1342134377039437996, guid: 24b6dff86d51bce42a2d5bce5dbc6cc6,
     type: 3}
 --- !u!4 &897930263

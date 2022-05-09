@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class Intantiator : MonoBehaviour
 {
+    public int clonar;
     public GameObject objectToClone;
+    
     public void CloneObject()
     {
-        Instantiate(objectToClone);
+        int num = clonar;
+        while (num > 0)
+        {
+            num--;
+            Instantiate(objectToClone);
+        }
     }
 }
